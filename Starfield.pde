@@ -59,7 +59,7 @@ class NormalParticle implements Particle{
 			y=200;
 			a=.001;
 			angle=Math.random()*360;
-			w=1;
+			w=2;
 			r=(int)(Math.random()*255)+100;
 			g=(int)(Math.random()*255)+100;
 			b=(int)(Math.random()*255)+100;
