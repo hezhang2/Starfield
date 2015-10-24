@@ -41,7 +41,7 @@ class NormalParticle implements Particle{
 		r=(int)(Math.random()*255)+100;
 		g=(int)(Math.random()*255)+100;
 		b=(int)(Math.random()*255)+100;
-		w=1;
+		w=2;
 
 	}
 	public void move(){
@@ -97,7 +97,7 @@ class OddballParticle implements Particle{
 	}
 	public void show(){
 		fill(r,b,g);
-		ellipse((float)x,(float)y,1,1);
+		ellipse((float)x,(float)y,2,2);
 	}
 	public void wrap(){
 		if(x<0||x>400||y<0||y>400){
